@@ -1,0 +1,16 @@
+C:\Users\galgr\OneDrive\שולחן העבודה\Programs\IntNode\bin\Debug\net5.0\IntNode.exe
+C:\Users\galgr\OneDrive\שולחן העבודה\Programs\IntNode\bin\Debug\net5.0\IntNode.deps.json
+C:\Users\galgr\OneDrive\שולחן העבודה\Programs\IntNode\bin\Debug\net5.0\IntNode.runtimeconfig.json
+C:\Users\galgr\OneDrive\שולחן העבודה\Programs\IntNode\bin\Debug\net5.0\IntNode.runtimeconfig.dev.json
+C:\Users\galgr\OneDrive\שולחן העבודה\Programs\IntNode\bin\Debug\net5.0\IntNode.dll
+C:\Users\galgr\OneDrive\שולחן העבודה\Programs\IntNode\bin\Debug\net5.0\ref\IntNode.dll
+C:\Users\galgr\OneDrive\שולחן העבודה\Programs\IntNode\bin\Debug\net5.0\IntNode.pdb
+C:\Users\galgr\OneDrive\שולחן העבודה\Programs\IntNode\obj\Debug\net5.0\IntNode.csproj.AssemblyReference.cache
+C:\Users\galgr\OneDrive\שולחן העבודה\Programs\IntNode\obj\Debug\net5.0\IntNode.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\galgr\OneDrive\שולחן העבודה\Programs\IntNode\obj\Debug\net5.0\IntNode.AssemblyInfoInputs.cache
+C:\Users\galgr\OneDrive\שולחן העבודה\Programs\IntNode\obj\Debug\net5.0\IntNode.AssemblyInfo.cs
+C:\Users\galgr\OneDrive\שולחן העבודה\Programs\IntNode\obj\Debug\net5.0\IntNode.csproj.CoreCompileInputs.cache
+C:\Users\galgr\OneDrive\שולחן העבודה\Programs\IntNode\obj\Debug\net5.0\IntNode.dll
+C:\Users\galgr\OneDrive\שולחן העבודה\Programs\IntNode\obj\Debug\net5.0\ref\IntNode.dll
+C:\Users\galgr\OneDrive\שולחן העבודה\Programs\IntNode\obj\Debug\net5.0\IntNode.pdb
+C:\Users\galgr\OneDrive\שולחן העבודה\Programs\IntNode\obj\Debug\net5.0\IntNode.genruntimeconfig.cache
