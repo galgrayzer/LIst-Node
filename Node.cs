@@ -19,21 +19,19 @@ namespace IntNode
                 return count;
             }
         }
-
-        public Node(T v, Node<T> n)
-        {
-            this.value = v;
-            this.next = n;
-        }
-        public Node(T v)
-        {
-            this.value = v;
-            this.next = null;
-        }
         public Node()
         {
             this.value = default(T);
             this.next = null;
+        }
+        public Node(params T[] items)
+        {
+            this.value = default(T);
+            this.next = null;
+            foreach (var item in items)
+            {
+                this.Append(item);
+            }
         }
         public bool HasNext()
         {

@@ -14,3 +14,19 @@ C:\Users\galgr\OneDrive\שולחן העבודה\Programs\IntNode\obj\Debug\net5.
 C:\Users\galgr\OneDrive\שולחן העבודה\Programs\IntNode\obj\Debug\net5.0\ref\IntNode.dll
 C:\Users\galgr\OneDrive\שולחן העבודה\Programs\IntNode\obj\Debug\net5.0\IntNode.pdb
 C:\Users\galgr\OneDrive\שולחן העבודה\Programs\IntNode\obj\Debug\net5.0\IntNode.genruntimeconfig.cache
+D:\programs\csharp\bin\Debug\net5.0\IntNode.exe
+D:\programs\csharp\bin\Debug\net5.0\IntNode.deps.json
+D:\programs\csharp\bin\Debug\net5.0\IntNode.runtimeconfig.json
+D:\programs\csharp\bin\Debug\net5.0\IntNode.runtimeconfig.dev.json
+D:\programs\csharp\bin\Debug\net5.0\IntNode.dll
+D:\programs\csharp\bin\Debug\net5.0\ref\IntNode.dll
+D:\programs\csharp\bin\Debug\net5.0\IntNode.pdb
+D:\programs\csharp\obj\Debug\net5.0\IntNode.csproj.AssemblyReference.cache
+D:\programs\csharp\obj\Debug\net5.0\IntNode.GeneratedMSBuildEditorConfig.editorconfig
+D:\programs\csharp\obj\Debug\net5.0\IntNode.AssemblyInfoInputs.cache
+D:\programs\csharp\obj\Debug\net5.0\IntNode.AssemblyInfo.cs
+D:\programs\csharp\obj\Debug\net5.0\IntNode.csproj.CoreCompileInputs.cache
+D:\programs\csharp\obj\Debug\net5.0\IntNode.dll
+D:\programs\csharp\obj\Debug\net5.0\ref\IntNode.dll
+D:\programs\csharp\obj\Debug\net5.0\IntNode.pdb
+D:\programs\csharp\obj\Debug\net5.0\IntNode.genruntimeconfig.cache

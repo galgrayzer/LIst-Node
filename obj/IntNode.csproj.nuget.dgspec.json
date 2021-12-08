@@ -1,25 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\galgr\\OneDrive\\שולחן העבודה\\Programs\\IntNode\\IntNode.csproj": {}
+    "D:\\programs\\csharp\\IntNode.csproj": {}
   },
   "projects": {
-    "C:\\Users\\galgr\\OneDrive\\שולחן העבודה\\Programs\\IntNode\\IntNode.csproj": {
+    "D:\\programs\\csharp\\IntNode.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\galgr\\OneDrive\\שולחן העבודה\\Programs\\IntNode\\IntNode.csproj",
+        "projectUniqueName": "D:\\programs\\csharp\\IntNode.csproj",
         "projectName": "IntNode",
-        "projectPath": "C:\\Users\\galgr\\OneDrive\\שולחן העבודה\\Programs\\IntNode\\IntNode.csproj",
-        "packagesPath": "C:\\Users\\galgr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\galgr\\OneDrive\\שולחן העבודה\\Programs\\IntNode\\obj\\",
+        "projectPath": "D:\\programs\\csharp\\IntNode.csproj",
+        "packagesPath": "C:\\Users\\cyberclass\\.nuget\\packages\\",
+        "outputPath": "D:\\programs\\csharp\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\galgr\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\cyberclass\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -52,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }
