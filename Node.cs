@@ -87,5 +87,21 @@ namespace IntNode
             output += temp.value + " }";
             return output;
         }
+        public static Node<T> operator +(Node<T> left, Node<T> right)
+        {
+            var temp = left;
+            var first = temp;
+            while (temp.HasNext())
+            {
+                temp = temp.next;
+            }
+            while (right != null)
+            {
+                temp.Append(right.value);
+                temp = temp.next;
+                right = right.next;
+            }
+            return first;
+        }
     }
 }
