@@ -15,6 +15,7 @@ namespace IntNode
                 while (tempList != null)
                 {
                     ++count;
+                    tempList = tempList.next;
                 }
                 return count;
             }
@@ -102,6 +103,25 @@ namespace IntNode
                 right = right.next;
             }
             return first;
+        }
+        public Node<dynamic> ConvertToDynamic()
+        {
+            var list = this;
+            Node<dynamic> output = new Node<dynamic>();
+            for (int i = 0; i < list.Length; i++)
+            {
+                output.Append(list[i]);
+            }
+            return output;
+        }
+        public IEnumerator<T> GetEnumerator()
+        {
+            var temp = this;
+            while (temp != null)
+            {
+                yield return temp.value;
+                temp = temp.next;
+            }
         }
     }
 }

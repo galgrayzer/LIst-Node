@@ -8,8 +8,10 @@ namespace IntNode
         {
             Node<int> list = new Node<int>(1, 2, 3, 4, 5, 6, 7);
             Console.WriteLine(list.ToString());
-            Node<string> list2 = new Node<string>("Hello", " World!");
-            Console.WriteLine(list2);
+            foreach (var item in list)
+            {
+                Console.WriteLine(item);
+            }
         }
     }
 }
