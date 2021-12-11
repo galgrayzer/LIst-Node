@@ -1,11 +1,11 @@
 using System.Collections.Generic;
 
-namespace IntNode
+namespace IntMyList
 {
-    class Node<T>
+    class MyList<T>
     {
         public T value { get; set; }
-        public Node<T> next { get; set; }
+        public MyList<T> next { get; set; }
         public int Length
         {
             get
@@ -20,12 +20,12 @@ namespace IntNode
                 return count;
             }
         }
-        public Node()
+        public MyList()
         {
             this.value = default(T);
             this.next = null;
         }
-        public Node(params T[] items)
+        public MyList(params T[] items)
         {
             this.value = default(T);
             this.next = null;
@@ -43,7 +43,7 @@ namespace IntNode
         {
             get
             {
-                Node<T> temp = this;
+                MyList<T> temp = this;
                 for (int i = 0; i < index; i++)
                 {
                     temp = temp.next;
@@ -52,7 +52,7 @@ namespace IntNode
             }
             set
             {
-                Node<T> temp = this;
+                MyList<T> temp = this;
                 for (int i = 0; i < index; i++)
                 {
                     temp = temp.next;
@@ -65,13 +65,13 @@ namespace IntNode
             if (EqualityComparer<T>.Default.Equals(value, default(T))) { this.value = item; }
             else
             {
-                Node<T> temp, first;
+                MyList<T> temp, first;
                 first = temp = this;
                 while (temp.next != null)
                 {
                     temp = temp.next;
                 }
-                temp.next = new Node<T>(item);
+                temp.next = new MyList<T>(item);
                 this.value = first.value;
                 this.next = first.next;
             }
@@ -88,7 +88,7 @@ namespace IntNode
             output += temp.value + " }";
             return output;
         }
-        public static Node<T> operator +(Node<T> left, Node<T> right)
+        public static MyList<T> operator +(MyList<T> left, MyList<T> right)
         {
             var temp = left;
             var first = temp;
@@ -104,10 +104,10 @@ namespace IntNode
             }
             return first;
         }
-        public Node<dynamic> ConvertToDynamic()
+        public MyList<dynamic> ConvertToDynamic()
         {
             var list = this;
-            Node<dynamic> output = new Node<dynamic>();
+            MyList<dynamic> output = new MyList<dynamic>();
             for (int i = 0; i < list.Length; i++)
             {
                 output.Append(list[i]);
