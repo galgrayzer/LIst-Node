@@ -123,5 +123,14 @@ namespace IntMyList
                 temp = temp.next;
             }
         }
+        public int? FindIndex(T value)
+        {
+            var temp = this;
+            for (int i = 0; i < this.Length; i++)
+            {
+                if (temp[i].Equals(value)) { return i; }
+            }
+            return null;
+        }
     }
 }

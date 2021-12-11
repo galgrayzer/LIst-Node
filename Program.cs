@@ -8,6 +8,7 @@ namespace IntMyList
         {
             MyList<int> list = new MyList<int>(1, 2, 3, 4, 5, 6, 7);
             Console.WriteLine(list);
+            Console.WriteLine(list.FindIndex(5));
         }
     }
 }
